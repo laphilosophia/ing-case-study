@@ -1,0 +1,42 @@
+{
+  "navigation": {
+    "employees": "Çalışanlar",
+    "addEmployee": "Çalışan Ekle"
+  },
+  "titles": {
+    "employeeList": "Çalışan Listesi",
+    "addNewEmployee": "Yeni Çalışan Ekle",
+    "editEmployee": "Çalışan Bilgilerini Düzenle",
+    "waiting": "Veriler bekleniyor...",
+    "loading": "Veriler yükleniyor...",
+    "error": "Hata {{error}}"
+  },
+  "fields": {
+    "fullName": "Tam Adı",
+    "firstName": "Adı",
+    "lastName": "Soyadı",
+    "birthday": "Doğum Tarihi",
+    "employmentDate": "İşe Başlangıç Tarihi",
+    "position": "Pozisyon",
+    "department": "Departman",
+    "email": "E-Posta",
+    "phone": "Telefon",
+    "actions": "Eylemler",
+    "reset": "Temizle",
+    "submit": "Gönder",
+    "pleaseSelect": "Lütfen Seçiniz"
+  },
+  "pagination": {
+    "previous": "Geri",
+    "next": "İleri",
+    "page": "{{index}} / {{total}} Sayfa"
+  },
+  "dialogs": {
+    "delete": {
+      "title": "Bu çalışanı silmek istediğinizden emin misiniz?",
+      "content": "Seçilen çalışan kaydı {{employee}} silinecektir.",
+      "proceed": "Devam Et",
+      "cancel": "Vazgeç"
+    }
+  }
+}

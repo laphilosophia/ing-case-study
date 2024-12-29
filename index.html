@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <base href="/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/assets/logotype.svg" />
+    <title>ING Case Study</title>
+    <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="./node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="/dev/styles/reset.css" />
+    <link rel="stylesheet" href="/dev/styles/global.css" />
+    <script>
+      let NODE_ENV = location.hostname === "localhost" ? null : "test";
+      NODE_ENV = location.hostname.startsWith("www") ? "production" : NODE_ENV;
+      window.process = { env: { NODE_ENV } };
+    </script>
+  </head>
+
+  <body>
+    <div id="outlet"></div>
+  </body>
+
+</html>
